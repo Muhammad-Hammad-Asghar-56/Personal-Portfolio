@@ -1,0 +1,65 @@
+.home {
+    background-image: linear-gradient(to right, #121d1d, #537272);
+}
+#homeDetails {
+    box-shadow: 2px 10px 20px 20px  rgb(54, 54, 50);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 3rem auto;
+    color: white;
+    padding: 100px 100px;
+}
+
+#personalDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.homedetailsBody {
+    padding: 20px 100px;
+    font-size: 1.4rem;
+}
+
+.homedetailsBody img {
+    width: 290px;
+    height: 363px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.nonListStyle div ul li {
+    list-style: none;
+}
+
+#personalDetails div ul li {
+    margin: 0.5rem 1rem;
+}
+
+.homedetailsBody>h3 {
+    font-weight: lighter;
+}
+
+.homedetailsBody>hr {
+    margin: 1.5rem 0rem;
+}
+
+.fa-person {
+    margin-right: 6px;
+}
+
+.fa-hand>span {
+    margin-left: 20px;
+}
+/* .info{
+    margin: 0px 10px;
+} */
+.flexColoum{
+    display: flex;
+    flex-direction: column;
+}
