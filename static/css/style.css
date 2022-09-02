@@ -8,9 +8,8 @@
 
 .PageSize {
     position: relative;
-    height: 100vh !important;
+    height: 100vh;
 }
-
 nav ul {
     display: flex;
     flex-direction: row;
