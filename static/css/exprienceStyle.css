@@ -41,6 +41,7 @@
 #experienceTimeline #yearList div {
 
     background-color: rgb(30, 30, 32);
+    box-shadow:0px 5px 10px 0px rgb(15, 13, 13);
     color: white;
     padding: 10px 20px;
     margin: auto;
@@ -50,9 +51,9 @@
 .ExprienceBlock {
     padding: 10px 20px;
     border: 1px solid rgb(77, 74, 74);
-    border-bottom: none;
+    border-bottom: 5px solid #00a78e;
     margin: 10px;
-    box-shadow: 0px 5px 0px 0px #00a78e;
+    box-shadow:0px 10px 10px 0px rgb(15, 13, 13);
     margin-top: 0px;
 }
 
