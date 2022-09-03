@@ -51,4 +51,9 @@ nav ul li a:hover {
     width: 100%;
     background: #00a78e;
 }
+.ContactSticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 
+}

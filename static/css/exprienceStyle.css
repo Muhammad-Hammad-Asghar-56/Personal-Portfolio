@@ -1,0 +1,87 @@
+#exprience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#exprience .header h1 {
+    color: black;
+}
+
+#exprience .header .messageBox {
+    box-shadow: 3px 2px 0px 0px rgb(185, 178, 178);
+}
+
+#experienceTimeline {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 20px 0px;
+}
+
+#experienceTimeline li {
+    list-style: none;
+}
+
+#yearList {
+    width: 40%;
+}
+
+#exprienceList {
+    width: 50%;
+}
+
+#experienceTimeline #yearList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#experienceTimeline #yearList div {
+
+    background-color: rgb(30, 30, 32);
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.ExprienceBlock {
+    padding: 10px 20px;
+    border: 1px solid rgb(77, 74, 74);
+    border-bottom: none;
+    margin: 10px;
+    box-shadow: 0px 5px 0px 0px #00a78e;
+    margin-top: 0px;
+}
+
+.ExprienceBlock::before {
+    position: absolute;
+    content: ' ';
+    background-color: white;
+    border: 1px solid rgb(43, 41, 41);
+    border-left: none;
+    border-top: none;
+    width: 20px;
+    height: 20px;
+    /* top: 76px; */
+    /* top: 100%; */
+    left: 45%;
+    transform: rotate(135deg);
+}
+
+#exprienceList li {
+    /* margin: 100px 0px; */
+    margin-bottom: 50px;
+}
+
+.ExprienceBlock h1 {
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 10px;
+}
+
+.ExprienceBlock p {
+    padding: 10px;
+}
