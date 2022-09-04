@@ -4,12 +4,9 @@
     align-items: center;
 }
 
-#exprience .header h1 {
+#exprience  h1 {
     color: black;
-}
-
-#exprience .header .messageBox {
-    box-shadow: 3px 2px 0px 0px rgb(185, 178, 178);
+    margin-top: 10px;
 }
 
 #experienceTimeline {

@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 0px 0px #141313;
+    box-shadow: 0px 5px 5px 0px #443e3e;
 }
 
 .messageBox:after {
@@ -36,8 +36,8 @@
     transform: rotate(45deg);
 }
 
-.messageBox+h1 {
-    margin-top: 30px;
+.messageBox + h1 {
+    margin-top: 10px;
     font-size: 40px;
     color: white;
 }
@@ -64,9 +64,11 @@
     border-radius: 10%;
     padding: 40px 20px;
 }
-.serviceBlocks h2{
-    color:#00a78e;
+
+.serviceBlocks h2 {
+    color: #00a78e;
 }
+
 .serviceBlocks p {
     color: white;
     padding: 20px 20px 20px 20px;
