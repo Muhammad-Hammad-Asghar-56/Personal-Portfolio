@@ -7,6 +7,9 @@ app.use(express.static('static'));
 app.get('/protfolio',(req,res)=>{
     res.render('index')
 })
+app.post('/Portfolio/message',(req,res)=>{
+    
+})
 app.listen(port,(req,res)=>{
     console.log("Server is running at the "+port);
 })
